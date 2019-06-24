@@ -6,6 +6,10 @@ function App() {
     <div>
     <div className="header">
       <h1>Title</h1>
+      <nav>Home
+        Services
+        About Us
+      </nav>
       </div>
       <div className = "footer">Contact Info</div>
       
