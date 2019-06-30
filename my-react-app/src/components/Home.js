@@ -8,6 +8,7 @@ class Home extends React.Component{
       <div>
         <ul>
           <li><NavLink to= "/services"></NavLink><h1>Services</h1> </li>
+          <li><NavLink to= "/services"></NavLink><h1>About Us</h1> </li>
         </ul>
       </div>
     )

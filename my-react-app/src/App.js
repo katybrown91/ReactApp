@@ -4,6 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import Home from './components/Home';
 import { Route, Switch } from 'react-router-dom';
 import Services from './components/Services';
+import About from './components/About';
 
 class App extends React.Component {
   render(){
@@ -14,6 +15,7 @@ class App extends React.Component {
         <Switch>
        <Route exact path='/' component={Home} /> 
        <Route exact path='/services' component={Services} /> 
+       <Route exact path='/about' component={About} /> 
        </Switch>
       </div>
       
