@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import Services from './Services';
+import About from './About';
 
 class Home extends React.Component{
   render(){
     return(
       <div>
-        <ul>
-          <li><NavLink to= "/services"></NavLink><h1>Services</h1> </li>
-          <li><NavLink to= "/services"></NavLink><h1>About Us</h1> </li>
-        </ul>
+        <h1>Business Title</h1>
+        <nav>
+        <Link to= "/services">Services</Link> <br></br>
+        <Link to= "/about">About Us</Link>
+        </nav>
       </div>
     )
   }

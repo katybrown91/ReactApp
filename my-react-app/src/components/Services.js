@@ -1,4 +1,5 @@
 import React from 'react';
+import Home from './Home';
 
 class Services extends React.Component{
   render(){
