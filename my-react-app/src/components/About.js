@@ -1,10 +1,17 @@
 import React from 'react';
 import Home from './Home';
+import Services from './Services';
+import { Link, NavLink } from 'react-router-dom';
 
 class About extends React.Component{
   render(){
     return(
       <div>
+         <nav>
+        <Link to= "/services">Services</Link> <br></br>
+        <Link to= "/">Home</Link>
+        </nav>
+        
         <h2>About Us</h2>
         <div className = "about">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
