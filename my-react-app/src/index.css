@@ -13,9 +13,17 @@ code {
 }
 
 nav{
-  background-color: aqua;
+  background-color: red;
 }
 
 .about{
 padding: 5%;
+}
+
+li{
+  list-style: none;
+}
+
+footer{
+  background-color: red;
 }
