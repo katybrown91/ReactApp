@@ -12,6 +12,7 @@ class Home extends React.Component{
         <Link to= "/services">Services</Link> <br></br>
         <Link to= "/about">About Us</Link>
         </nav>
+        <img src = "../../public/image/spaimage.jpg"  alt= "spa" />
       </div>
     )
   }
