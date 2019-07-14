@@ -4,6 +4,9 @@ import Services from './Services';
 import About from './About';
 
 class Home extends React.Component{
+
+  
+
   render(){
     return(
       <div>
@@ -12,7 +15,7 @@ class Home extends React.Component{
         <Link to= "/services">Services</Link> <br></br>
         <Link to= "/about">About Us</Link>
         </nav>
-        <img src = "../../public/image/spaimage.jpg"  alt= "spa" />
+        <img src = {"./image/spaimage.jpg"}  alt= "spa" width="30%"/>
       </div>
     )
   }
