@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 nav{
   background-color: red;
 }
