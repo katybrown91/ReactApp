@@ -12,6 +12,7 @@ class Services extends React.Component{
           <Link to = "/about">About Us</Link>
         </nav>
         <h1>Our Services</h1>
+        <div className = "services">
         <ul>
           <li>Item 1</li>$55 <br></br> <br></br>
           <li>Item 2</li>$60 <br></br> <br></br>
@@ -19,6 +20,7 @@ class Services extends React.Component{
           <li>Item 4</li>$120 <br></br> <br></br>
           <li>Item 5</li>$40 <br></br> <br></br>
         </ul>
+        </div>
       </div>
     )
   }
