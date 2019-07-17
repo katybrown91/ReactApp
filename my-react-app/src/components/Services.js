@@ -14,11 +14,11 @@ class Services extends React.Component{
         <h1>Our Services</h1>
         <div className = "services">
         <ul>
-          <li>Item 1</li>$55 <br></br> <br></br>
-          <li>Item 2</li>$60 <br></br> <br></br>
-          <li>Item 3</li>$75 <br></br> <br></br>
-          <li>Item 4</li>$120 <br></br> <br></br>
-          <li>Item 5</li>$40 <br></br> <br></br>
+          <li>Service 1</li>$55 <br></br> <br></br>
+          <li>Service 2</li>$60 <br></br> <br></br>
+          <li>Service 3</li>$75 <br></br> <br></br>
+          <li>Service 4</li>$120 <br></br> <br></br>
+          <li>Service 5</li>$40 <br></br> <br></br>
         </ul>
         </div>
       </div>

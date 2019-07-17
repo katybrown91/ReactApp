@@ -17,8 +17,13 @@ class App extends React.Component {
        <Route exact path='/services' component={Services} /> 
        <Route exact path='/about' component={About} /> 
        </Switch>
-       <footer>Contact<br></br>
-       (123)456-7890</footer>
+       <footer><p>Contact<br></br>
+       (123)456-7890</p>
+       <p>Address<br></br>
+       123 Main Street<br></br>
+       Fort Lauderdale, Fl<br></br>
+       33312</p>
+       </footer>
       </div>
       
       
