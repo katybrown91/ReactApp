@@ -14,6 +14,7 @@ class About extends React.Component{
         
         <h2>About Us</h2>
         <div className = "about">
+        <img src={"./image/massage.jpg"} alt="massage" width="250vw" height="250vh"/>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Nullam rhoncus sit amet dui id egestas. Etiam pellentesque tortor sed efficitur 
           laoreet. Nam ut posuere velit, sit amet varius orci. Etiam bibendum quis nisi 
