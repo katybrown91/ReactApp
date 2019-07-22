@@ -15,11 +15,11 @@ class Services extends React.Component{
         <div className = "services">
           <img src={"./image/mask.jpg"} alt="mask" width="300vw" height="250vh"/>
         <ul>
-          <li>Service 1</li>$55 <br></br> <br></br>
-          <li>Service 2</li>$60 <br></br> <br></br>
-          <li>Service 3</li>$75 <br></br> <br></br>
-          <li>Service 4</li>$120 <br></br> <br></br>
-          <li>Service 5</li>$40 <br></br> <br></br>
+          <li>Reflexology</li>$60 <br></br> <br></br>
+          <li>Manicure</li>$20 <br></br> <br></br>
+          <li>Pedicure</li>$75 <br></br> <br></br>
+          <li>Oxygen Facial</li>$40 <br></br> <br></br>
+          <li>Swedish Massage</li>$75 <br></br> <br></br>
         </ul>
         <img src={"./image/lotion.jpg"} alt="lotion" width="300vw" height="250vh"/>
         </div>
